@@ -1,0 +1,162 @@
+/* 页面整体 */
+body {
+  font-family: "Microsoft YaHei", Arial, sans-serif;
+  background-color: #eef4ff;
+  color: #333;
+  margin: 0;
+  padding: 20px;
+}
+
+/* 头部 */
+header {
+  max-width: 800px;
+  margin: 0 auto 20px;
+  background-color: #4f8cff;
+  color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 26px;
+}
+
+/* 主体 */
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 24px;
+  border-radius: 10px;
+}
+
+/* 表单 */
+label {
+  font-weight: bold;
+  color: #444;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+input[type="file"],
+select,
+textarea {
+  width: 100%;
+  max-width: 400px;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background-color: #fafbff;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  border-color: #4f8cff;
+  outline: none;
+  background-color: #fff;
+}
+
+/* 单选和多选 */
+input[type="radio"],
+input[type="checkbox"] {
+  margin-right: 4px;
+}
+
+/* 按钮 */
+button {
+  padding: 10px 24px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 6px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+button[type="submit"] {
+  background-color: #4f8cff;
+  color: #fff;
+}
+
+button[type="submit"]:hover {
+  background-color: #3a6fd8;
+}
+
+button[type="reset"] {
+  background-color: #e0e0e0;
+  color: #333;
+}
+
+button[type="reset"]:hover {
+  background-color: #cfcfcf;
+}
+
+/* 小标题 */
+h2 {
+  color: #2c3e50;
+  border-left: 5px solid #4f8cff;
+  padding-left: 10px;
+  font-size: 20px;
+}
+
+/* 表格 */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+thead th {
+  background-color: #4f8cff;
+  color: #fff;
+  padding: 10px;
+}
+
+tbody td {
+  padding: 10px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f7faff;
+}
+
+tbody tr:hover {
+  background-color: #eef4ff;
+}
+
+/* 列表 */
+ul li::marker {
+  color: #4f8cff;
+}
+
+ol li::marker {
+  color: #4f8cff;
+  font-weight: bold;
+}
+
+dt {
+  font-weight: bold;
+  color: #4f8cff;
+  margin-top: 10px;
+}
+
+dd {
+  margin: 4px 0 0 20px;
+  color: #666;
+}
+
+/* 底部 */
+footer {
+  max-width: 800px;
+  margin: 20px auto 0;
+  text-align: center;
+  color: #888;
+  font-size: 14px;
+}
